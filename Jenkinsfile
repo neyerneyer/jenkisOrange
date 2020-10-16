@@ -10,7 +10,7 @@ pipeline{
 	stages{
 		stage('Actualizar fuentes Nodo Windows') {
 		 	steps{
-		 		git url: 'https://github.com/neyerneyer/POM/tree/master/co.com.orange', credentialsId: 'brandonneyer@hotmail.com', branch: 'master'
+		 		git url: 'https://github.com/neyerneyer/jenkisOrange.git', credentialsId: 'brandonneyer@hotmail.com', branch: 'master'
 			}
 		}
 
